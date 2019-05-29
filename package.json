@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-site": "build-site.sh",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
