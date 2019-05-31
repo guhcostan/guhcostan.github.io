@@ -1,23 +1,28 @@
 <template lang="pug">
-  #app
+	#app
+		el-container
+			Header
 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header';
 
 export default {
-  name: 'app'
+	name: 'app',
+	components: { Header }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+	@import "styles/variables";
+
+	body{
+		margin: 0;
+	}
+	#app {
+		background-color: $--background-color-base;
+		font-family: 'Avenir', Helvetica, Arial, sans-serif;
+		text-align: center;
+	}
 </style>
