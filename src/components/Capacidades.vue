@@ -1,22 +1,22 @@
 <template lang="pug">
-	#sobre
+	#capacidades
 		el-container
 			el-row(type="flex" justify="center")
 				el-col(span="24")
-					.titulo Sobre
+					.titulo Capacidades
 </template>
 
 <script>
 export default {
-	name: 'Sobre'
+	name: 'Capacidades'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-	#sobre {
+	@import "../styles/variables";
+	#capacidades {
 		height: 100vh;
-		padding: 100px 0 0 0!important;
 
 		.el-row {
 
